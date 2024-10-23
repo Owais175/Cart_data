@@ -1,0 +1,398 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0 !important;
+}
+a {
+    text-decoration: none !important;
+}
+
+/* header css start */
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black !important;
+}
+
+.navbar-nav li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: black !important;
+}
+
+.font-icon {
+    gap: 20px;
+}
+
+.font-icon a {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.font-icon a span {
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background: #dc3545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    border-radius: 60px;
+    font-size: 14px;
+}
+/* header css end */
+
+/* product css start */
+
+.product_add {
+    padding: 50px 0;
+}
+
+.home_product {
+    text-align: center;
+}
+
+.home_product h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+
+.home_product p {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    margin: auto;
+    width: 50%;
+    margin-top: 30px;
+}
+.main-product {
+    margin-top: 50px;
+    box-shadow: 0 0 10px 1px #00000078;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.main-product figure img {
+    height: 270px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-product figure {
+    box-shadow: 0 0 6px 2px #00000057;
+    border-radius: 10px;
+}
+.product_info {
+    padding: 10px;
+}
+
+.product_info h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.product_info p {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+.product-details {
+    padding: 100px 0;
+}
+
+.porduct_img h1 {
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+}
+
+.porduct_img p {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pagination_product {
+    margin-top: 30px;
+}
+.pagination_product ul li.active span {
+    background: #dc3545 !important;
+    border: none !important;
+    color: white !important;
+}
+.pagination_product ul li {
+    width: 45px;
+    text-align: center;
+}
+
+.pagination_product ul {
+    justify-content: end;
+}
+
+.pagination_product ul li a,
+span {
+    font-size: 20px;
+    color: black !important;
+}
+/* product css end */
+
+/* footer css start */
+
+footer {
+    background: black;
+    padding: 50px 0;
+}
+
+.footer-links h4 {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer-links ul li {
+    padding: 5px 0;
+}
+
+.footer-links ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social_links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social_links ul li {
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.social_links ul li:hover {
+    background: #dc3545;
+    transition: all ease 0.5s;
+    transform: rotate(45deg);
+}
+
+.social_links ul li a {
+    font-size: 20px;
+}
+
+.copy_right {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.copy_right p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* footer css end */
+
+/* checkout pg css start */
+
+.checkoutpg {
+    padding: 80px 0;
+}
+
+.info_check h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.checkout_form .form-control {
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.checkout_form label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.checkout_form label span {
+    color: red !important;
+}
+
+.button-sub {
+    margin-top: 20px;
+}
+
+.button-sub .btn-success {
+    padding: 12px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.hidden {
+    display: none;
+}
+
+iframe {
+    height: 35px !important;
+}
+
+.cart_payment h2 {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.cart_payment {
+    background: #bb2d3b;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.cart_payment ul {
+    margin: 0;
+    margin-bottom: 20px;
+    padding-top: 20px !important;
+}
+
+.cart_payment ul li {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.cart_payment h2 span {
+    color: white !important;
+}
+.cart_payment h5 {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cart_payment h5 span {
+    color: white !important;
+}
+/* checkout pg css end */
+
+/* cart pg css start */
+
+#coupon-code {
+    height: 35px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 14px;
+    border: 2px solid black;
+    font-weight: 600;
+    color: black;
+}
+.price_get {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+/* carr pg css end */
+
+/* modal css start */
+
+#staticBackdrop .modal-header {
+    border: none;
+    padding-bottom: 0;
+}
+
+.form_search {
+    text-align: end;
+}
+.form_search .form_div {
+    margin-bottom: 20px;
+}
+.machimg_product p {
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+    margin-top: 60px;
+}
+
+.shoping_data {
+    display: flex;
+    align-items: self-start;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    gap: 10px;
+    position: relative;
+    z-index: 0;
+}
+.shoping_data .cut_btn {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    background: #dc3545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    border-radius: 60%;
+}
+.cart_details h5 {
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    margin: 0;
+}
+.cart_details p {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    margin: 0;
+}
+.empty_cart {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+/* modal css end */

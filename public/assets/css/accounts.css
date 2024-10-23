@@ -1,0 +1,122 @@
+/* accounts page css start */
+
+.sign-user {
+    padding: 100px 120px;
+}
+
+.signin-account {
+    margin-bottom: 20px;
+}
+
+.signin-account h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+}
+
+.signin-account form {
+    background: #198754;
+    padding: 20px;
+    border-radius: 10px;
+}
+.signin-account form label {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+.signin-account form .form-control {
+    height: 55px;
+    margin-bottom: 10px;
+}
+.btn-para .btn-danger {
+    padding: 10px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+/* accounts page css end */
+
+/* dashboard page css start */
+
+.dashboard-pg {
+    padding: 100px 0;
+}
+
+.side-menu {
+    background: #bb2d3b;
+    border-radius: 10px;
+    border: 8px solid #00000078;
+}
+.side-menu ul {
+    margin: 0;
+}
+
+.side-menu ul li a {
+    font-size: 25px;
+    color: white !important;
+    font-weight: 900;
+    display: flex;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.side-menu ul li a:hover {
+    background: #00000078;
+}
+.dashborad-main {
+    padding-left: 50px;
+}
+
+.dashborad-main h1 {
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: black;
+}
+/* dashboard page css end */
+
+/* account-details page css start */
+
+.details-show {
+    padding: 20px;
+}
+
+.details-show label {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.details-show input {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    height: 50px;
+    font-size: 18px;
+}
+.pass-word {
+    margin: 20px 0;
+}
+
+.pass-word h1 {
+    color: black;
+    font-weight: 800;
+}
+
+.forg-pasd {
+    padding: 10px 0;
+}
+
+.forg-pasd a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* account-details page css end */
