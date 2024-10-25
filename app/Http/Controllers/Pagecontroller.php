@@ -28,4 +28,9 @@ class Pagecontroller extends Controller
         $product = DB::table('product')->where('id', $id)->first();
         return view('productdetails', compact('product'));
     }
+
+    public function contact(Request $request)
+    {
+        return view('contact');
+    }
 }

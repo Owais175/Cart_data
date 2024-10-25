@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\taxController;
 use App\Http\Controllers\Cartcantroller;
+use App\Http\Controllers\MailController;
 use App\Http\Controllers\Pagecontroller;
 use App\Http\Controllers\Pymentcontroller;
 use App\Http\Controllers\Couponscontroller;
@@ -14,6 +15,10 @@ use App\Http\Controllers\AttributesvaluesController;
 // page route
 Route::get('/', [Pagecontroller::class, 'index'])->name('index');
 Route::get('productdetails/{id}', [Pagecontroller::class, 'details'])->name('productdetails');
+Route::get('contact', [Pagecontroller::class, 'contact'])->name('contact');
+
+// email route
+Route::post('contact-submit', [MailController::class, 'mail'])->name('mialsubmit');
 
 // products crud route
 Route::get('product/index', [Productcontroller::class, 'index'])->name('product.index');
@@ -66,7 +71,6 @@ Route::get('tax/create', [TaxController::class, 'create'])->name('tax.create');
 Route::post('tax/store', [TaxController::class, 'store'])->name('tax.store');
 Route::get('tax/edit/{id}', [TaxController::class, 'edit'])->name('tax.edit');
 Route::post('tax/update/{id}', [TaxController::class, 'update'])->name('tax.update');
-
 
 // account route
 Route::get('account/signup', [RegisterController::class, 'signup'])->name('account.signup');

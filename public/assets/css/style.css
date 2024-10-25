@@ -330,7 +330,47 @@ iframe {
     justify-content: center;
     gap: 15px;
 }
-/* carr pg css end */
+/* cart pg css end */
+
+/* contact pg css start */
+
+.contact-pg {
+    padding: 100px 0;
+}
+
+.contact-info label {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-info .form-control {
+    height: 55px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.contact-info .form-control::placeholder {
+    color: black;
+}
+.contact-info #textarea {
+    height: unset !important;
+}
+
+.btn-contact {
+    margin-top: 20px;
+}
+
+.btn-contact .btn {
+    font-weight: 700;
+    border: 2px solid;
+}
+
+/* contact pg css end */
 
 /* modal css start */
 
